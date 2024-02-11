@@ -1,5 +1,3 @@
-//arquivo para conexão com o banco de dados do phpmyadmin
-
 <?php 
     $servidor = "localhost";
     $usuario = "root";
