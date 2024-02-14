@@ -31,10 +31,10 @@
         $sql= "INSERT INTO usuario(cpf, nome, data_nascimento) VALUES ('$cpf', '$nome', '$data_nascimento')";
         
         if(mysqli_query($conexao, $sql)){
-            print "Cadastrado";
+            echo "Cadastrado";
         }
         else{
-            print "Erro";
+            echo "Erro";
         }
         mysqli_close($conexao)
 
